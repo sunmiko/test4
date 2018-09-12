@@ -1,7 +1,7 @@
 {
   "name": "test4",
   "scripts": {
-#    "test": "bash ./buildpack-run.sh"
+    "test": "bash ./buildpack-run.sh"
   },
   "env": {
   },
