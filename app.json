@@ -1,0 +1,17 @@
+{
+  "name": "test4",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/weibeld/heroku-buildpack-run"
+    }
+  ]
+}
