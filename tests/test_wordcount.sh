@@ -5,7 +5,7 @@
 
 test_Android_title_limit_50() {
 	test_result=0
-	for f in `find files -type f | grep title.txt`; do
+	for f in `find files -type f | grep "\.txt"`; do
         count=`tr -d "\n\r" < $f| wc -m`
 	echo "$f is" $count "characters long"
         if [[ $count -gt 50 ]]; then
