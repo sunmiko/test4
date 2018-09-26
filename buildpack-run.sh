@@ -4,6 +4,7 @@
 echo "Testing git clone"
 # rm -rf label-service
 # git clone https://svc-l10n:Globalization_123456@github.com/Localization/label-service.git
+if [ -d "shunit2" ]; then rm -rf shunit2; fi
 git clone https://svc-l10n:Globalization_123456@github.com/Localization/shunit2.git
 pwd
 ls
